@@ -1,32 +1,14 @@
-# Gene Expression Analysis Using Python
+## Projects
 
-## Overview
-This project demonstrates a basic gene expression analysis workflow using Python.
-Gene expression levels in cancer and normal samples are compared to identify
-genes that are potentially overexpressed in cancer.
+### 1. Gene Expression Analysis Using Python
+- Compared gene expression levels between cancer and normal samples
+- Calculated expression differences using Pandas and NumPy
+- Visualized results using simple bar plots
+- Interpreted biological significance of results
 
-## Tools Used
-- Python
-- Pandas
-- NumPy
-- Google Colab
-
-## Dataset
-A simplified gene expression dataset containing expression values
-for selected genes in cancer and normal conditions.
-
-## Analysis Steps
-- Data creation and loading
-- Exploratory data analysis
-- Calculation of expression differences
-- Identification of highly expressed genes
-- Biological interpretation of results
-
-## Key Findings
-Genes such as **EGFR** and **MYC** show higher expression levels in cancer samples
-compared to normal samples, suggesting potential involvement in cancer-related
-biological processes.
-
-## Author
-Akshay
-
+### 2. Grouped Gene Expression Analysis with Visualization
+- Performed grouped analysis of gene expression data by gene and condition
+- Used Pandas GroupBy and pivoting to restructure biological data
+- Calculated condition-wise expression differences
+- Visualized gene expression differences using bar charts
+- Demonstrated real-world bioinformatics-style data analysis workflow
